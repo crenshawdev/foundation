@@ -12,7 +12,7 @@ Each plugin lives in its own repository and carries its own version. Foundation 
 ## Install
 
 ```
-claude plugin marketplace add <owner>/foundation
+claude plugin marketplace add crenshawdev/foundation
 claude plugin install cadence@foundation
 claude plugin install burnrate@foundation
 ```
