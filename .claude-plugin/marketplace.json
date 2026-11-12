@@ -1,0 +1,25 @@
+{
+  "name": "foundation",
+  "owner": {
+    "name": "John Crenshaw"
+  },
+  "description": "Foundation: one marketplace for the Claude Code plugins Cadence and burnrate. Each plugin lives in its own repository.",
+  "plugins": [
+    {
+      "name": "cadence",
+      "source": {
+        "source": "github",
+        "repo": "crenshawdev/cadence"
+      },
+      "description": "A Claude Code plugin that brings engineering practices to software you'll keep running after the session ends. It writes a plan before code, commits once per task, holds tests to a stopping rule, and checks the result against your goal. Its records live in your repository, so a new session picks up where the last one stopped."
+    },
+    {
+      "name": "burnrate",
+      "source": {
+        "source": "github",
+        "repo": "crenshawdev/burnrate"
+      },
+      "description": "Builds a local, self-contained dashboard of your own Claude Code token usage from your transcripts, and answers quick usage questions in chat."
+    }
+  ]
+}
