@@ -3,7 +3,7 @@
   "owner": {
     "name": "John Crenshaw"
   },
-  "description": "Foundation: one marketplace for the Claude Code plugins Cadence and burnrate. Each plugin lives in its own repository.",
+  "description": "Foundation: one marketplace for the Claude Code plugins Cadence, burnrate and Headroom. Each plugin lives in its own repository.",
   "plugins": [
     {
       "name": "cadence",
@@ -20,6 +20,14 @@
         "repo": "crenshawdev/burnrate"
       },
       "description": "Builds a local, self-contained dashboard of your own Claude Code token usage from your transcripts, and answers quick usage questions in chat."
+    },
+    {
+      "name": "headroom",
+      "source": {
+        "source": "github",
+        "repo": "crenshawdev/headroom"
+      },
+      "description": "Reminds you to /clear with a toast when your session's context fills past a point you choose, then again each step after. The toast stays out of the transcript, so a reminder costs no tokens."
     }
   ]
 }
