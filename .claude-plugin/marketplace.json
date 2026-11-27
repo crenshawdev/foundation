@@ -3,7 +3,7 @@
   "owner": {
     "name": "John Crenshaw"
   },
-  "description": "Foundation: one marketplace for the Claude Code plugins Cadence, burnrate and Headroom. Each plugin lives in its own repository.",
+  "description": "Foundation: one marketplace for the Claude Code plugins Cadence, burnrate, Headroom and Seldon. Each plugin lives in its own repository.",
   "plugins": [
     {
       "name": "cadence",
@@ -28,6 +28,14 @@
         "repo": "crenshawdev/headroom"
       },
       "description": "Reminds you to /clear with a toast when your session's context fills past a point you choose, then again each step after. The toast stays out of the transcript, so a reminder costs no tokens."
+    },
+    {
+      "name": "seldon",
+      "source": {
+        "source": "github",
+        "repo": "crenshawdev/seldon"
+      },
+      "description": "Does the design work before Cadence builds. It interviews you about what you want to build, then writes a brief, a PRD, an architecture spine and a set of epics into .planning/seldon/, so Cadence starts from fixed boundaries and small phases."
     }
   ]
 }

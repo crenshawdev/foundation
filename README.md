@@ -1,12 +1,13 @@
 # Foundation
 
-Foundation is a Claude Code plugin marketplace. It lists Cadence, burnrate and Headroom, so you add one marketplace and install any of them from it.
+Foundation is a Claude Code plugin marketplace. It lists Cadence, burnrate, Headroom and Seldon, so you add one marketplace and install any of them from it.
 
 ## What's in it
 
 - **[Cadence](https://github.com/crenshawdev/cadence)** brings engineering practices to software you'll keep running after the session ends. It writes a plan before code, commits once per task, holds tests to a stopping rule, and checks the result against your goal.
 - **[burnrate](https://github.com/crenshawdev/burnrate)** builds a local dashboard of your own Claude Code token usage from your transcripts, and answers quick usage questions in chat.
 - **[Headroom](https://github.com/crenshawdev/headroom)** reminds you to `/clear` with a toast when your session's context fills past a point you choose. The toast stays out of the transcript, so a reminder costs no tokens.
+- **[Seldon](https://github.com/crenshawdev/seldon)** does the design work before Cadence builds. It interviews you about what you want to build, then writes a brief, a PRD, an architecture spine and a set of epics into `.planning/seldon/`, so Cadence starts from fixed boundaries and small phases.
 
 Each plugin lives in its own repository and carries its own version. Foundation only points at them, so a new release of a plugin needs no change here.
 
@@ -17,6 +18,7 @@ claude plugin marketplace add crenshawdev/foundation
 claude plugin install cadence@foundation
 claude plugin install burnrate@foundation
 claude plugin install headroom@foundation
+claude plugin install seldon@foundation
 ```
 
 To pick up a new release later:
